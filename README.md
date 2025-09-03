@@ -25,13 +25,13 @@ The best-performing model, ResNet50 Fine-tuned, reached ~62% accuracy. This show
 
 ## Getting Started
 **Installation**
-```
+```python
 git clone https://github.com/ngocdangnguyen-ng/flowers-recognition.git
 cd flowers-recognition
 pip install -r requirements.txt
 ```
 **Quick Example**
-```
+```python
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
@@ -46,7 +46,7 @@ print(f"Predicted class: {class_names[np.argmax(pred)]}")
 ```
 
 ## Project Structure
-```
+```python
 flowers-recognition/
 │
 ├── app/                     
