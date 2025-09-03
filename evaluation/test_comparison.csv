@@ -1,0 +1,4 @@
+Model,Test Accuracy,Test Loss
+Transfer ResNet50,0.5556,1.1129
+Fine-tuned ResNet50,0.6157,1.0330
+Improved CNN,0.3981,2.4473

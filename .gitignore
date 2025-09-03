@@ -1,0 +1,26 @@
+# Ignore Python cache and environment
+__pycache__/
+*.pyc
+venv/
+
+# Ignore data folders
+data/processed/
+data/raw/
+data/sample_images/
+
+# Ignore model files
+models/
+
+# Ignore results and logs
+results/
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore config backups
+backups/
